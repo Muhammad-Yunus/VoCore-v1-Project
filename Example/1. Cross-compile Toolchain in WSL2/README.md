@@ -10,7 +10,7 @@ networkingMode=mirrored
 3. [Connect to wsl2 Ubuntu16.04  via VS Code](https://code.visualstudio.com/docs/remote/wsl)
 4. In VS Code terminal connected to wsl2 Ubuntu16.04, run command bellow to install build tool,
 ```
-sudo apt-get install -y build-essential git subversion sharutils vim asciidoc binutils bison flex texinfo gawk help2man intltool libelf-dev zlib1g-dev libncurses5-dev ncurses-term libssl-dev python2.7-dev unzip wget gettext xsltproc && sudo apt-get clean
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y build-essential git subversion sharutils vim asciidoc binutils bison flex texinfo gawk help2man intltool libelf-dev zlib1g-dev libncurses5-dev ncurses-term libssl-dev python2.7-dev unzip wget gettext xsltproc && sudo apt-get clean
 ```
 5. Clone OpenWRT 15.05 Chaos Calmer,
 ```
