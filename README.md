@@ -3,7 +3,7 @@ Example Project for VoCore v1
 
 - [VoCore v1 | Layout & Pin Mapping](https://vocore.io/v1.html)
 - [VoCore v1 | SSH](https://vonger.cn/?p=1536)
-  - Connect to wifi with SSID `vocore`
+  - Connect to wifi with SSID `VoCore`
   - SSH      : `ssh root@192.168.61.1 -p 22`
   - Password : `vocore`
   - LuCi Web : `http://192.168.61.1/`

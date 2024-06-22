@@ -65,7 +65,7 @@ int main(void)
 ```
 scp ./hello root@192.168.61.1
 ```
-18. SSH to VoCOre,  
+18. SSH to VoCore,  
 ```
 ssh root@192.168.61.1
 ```
