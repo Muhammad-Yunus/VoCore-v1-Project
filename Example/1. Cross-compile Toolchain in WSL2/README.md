@@ -60,7 +60,7 @@ int main(void)
 ```
 `find ~/openwrt -name mipsel-openwrt-linux-gcc` -g main.c -o hello
 ```
-16. Connect to VoCore WiFi with SSID `vocore`
+16. Connect to VoCore WiFi with SSID `VoCore`
 17. Copy compiled binary `hello` to VoCore over SSH using `scp`,
 ```
 scp ./hello root@192.168.61.1
