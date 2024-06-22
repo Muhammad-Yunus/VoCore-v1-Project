@@ -85,3 +85,4 @@ ssh root@192.168.61.1
 - [https://vonger.cn/?p=1585](https://vonger.cn/?p=1585)
 - [https://medium.com/meseta-robots/set-up-cross-compile-toolchains-in-docker-to-save-time-openwrt-build-system-for-ar9331-1744629164c8](https://medium.com/meseta-robots/set-up-cross-compile-toolchains-in-docker-to-save-time-openwrt-build-system-for-ar9331-1744629164c8)
 - [https://learn.microsoft.com/en-us/windows/wsl/networking#accessing-a-wsl-2-distribution-from-your-local-area-network-lan](https://learn.microsoft.com/en-us/windows/wsl/networking#accessing-a-wsl-2-distribution-from-your-local-area-network-lan)
+- [https://github.com/openwrt/openwrt/issues/9055](https://github.com/openwrt/openwrt/issues/9055)
