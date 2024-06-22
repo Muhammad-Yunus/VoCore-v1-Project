@@ -34,3 +34,29 @@ make menuconfig
 ```
 make -j1 V=s
 ```
+11. Add environment variable needed for builds in `~/.bashrc`at the end of the file, 
+```
+export STAGING_DIR=~/openwrt/staging_dir
+export TOOLCHAIN_DIR=$STAGING_DIR/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2
+export LDCFLAGS=$TOOLCHAIN_DIR/usr/lib
+export LD_LIBRARY_PATH=$TOOLCHAIN_DIR/usr/lib
+export PATH=$TOOLCHAIN_DIR/bin:$PATH
+export CC=mips-openwrt-linux-uclibc-gcc
+```
+13. Reload `~/.bashrc`,
+```
+source ~/.bashrc
+```
+14. Test toolchain by creating `Hello World` program, create a new file name it `main.c`, and paste 
+```
+#include <stdio.h>
+
+int main(void)
+{
+    return printf("hello world\n");
+}
+```
+15. compile the code using `gcc`,
+```
+`find ~/openwrt -name mipsel-openwrt-linux-gcc` -g main.c -o hello
+```
