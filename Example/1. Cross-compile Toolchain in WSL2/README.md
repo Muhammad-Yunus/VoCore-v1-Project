@@ -19,7 +19,7 @@ cd openwrt/
 ```
 6. Download patch file for OpenWRT 15.05,
 ```
-wget https://raw.githubusercontent.com/Muhammad-Yunus/VoCore-v1-Project/main/Example/1.%20Cross-compile%20Toolchain%20in%20WSL2/patch/011-fix-sigstksz.patch -p tools/m4/patches/
+wget https://raw.githubusercontent.com/Muhammad-Yunus/VoCore-v1-Project/main/Example/1.%20Cross-compile%20Toolchain%20in%20WSL2/patch/011-fix-sigstksz.patch -P tools/m4/patches/
 ```
 7. Run OpenWRT build system script,
 ```
