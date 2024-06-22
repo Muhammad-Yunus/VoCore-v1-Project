@@ -68,7 +68,7 @@ int main(void)
 15. Connect to VoCore WiFi with SSID `VoCore`
 16. Copy compiled binary `hello` to VoCore over SSH using `scp`,
 ```
-scp ./hello root@192.168.61.1:/
+scp ./hello root@192.168.61.1:/root
 ```
 17. SSH to VoCore,  
 ```
