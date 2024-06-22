@@ -11,4 +11,4 @@ Example Project for VoCore v1
 - [VoCore v1 | OpenWRT 15.05 Chaos Calmer Repo](https://github.com/openwrt/chaos_calmer)
   - Patch : [/tools/m4/patches/011-fix-sigstksz.patch](https://raw.githubusercontent.com/keyfour/openwrt/2722d51c5cf6a296b8ecf7ae09e46690403a6c3d/tools/m4/patches/011-fix-sigstksz.patch)
 - [VoCore v1 | Cross-compile Toolchain OpenWRT in Docker](https://medium.com/meseta-robots/set-up-cross-compile-toolchains-in-docker-to-save-time-openwrt-build-system-for-ar9331-1744629164c8)
-- [VoCore v1 | Cross-compile Toolchain OpenWRT in WSL2](https://github.com/Muhammad-Yunus/VoCore-v1-Project/blob/main/Example/1.%20Cross-compile%20Toolchain%20in%20WSL2.md)
+- [VoCore v1 | Cross-compile Toolchain OpenWRT in WSL2](/home/linux/VoCore-v1-Project/Example/1. Cross-compile Toolchain in WSL2/README.md)

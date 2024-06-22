@@ -28,4 +28,5 @@ git config --global url.https://github.com/.insteadOf git://github.com/
 ```
 make menuconfig
 ```
-it will open OpenWRT build configuration, make sure select like bellow,
+- it will open OpenWRT build configuration, make sure select like bellow,
+![](img/build-condif.png)
