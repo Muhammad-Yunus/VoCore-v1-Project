@@ -78,7 +78,7 @@ ssh root@192.168.61.1
 ```
 ./hello
 ``` 
-- it's should printing `Hello World`
+- it's should printing `hello world`
 
 
 ### Source
