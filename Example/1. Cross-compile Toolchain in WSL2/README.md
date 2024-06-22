@@ -30,3 +30,7 @@ make menuconfig
 ```
 - it will open OpenWRT build configuration, make sure select like bellow,
 ![](img/build-condif.png)
+10. Compile OpenWRT using `make`
+```
+make -j1 V=s
+```
