@@ -1,6 +1,11 @@
 # VoCore v1 | Cross-compile Toolchain OpenWRT in WSL2
 
-1. Make sure `wsl2` is [activated in your Windows 10 or Windows 11 computer](https://learn.microsoft.com/id-id/windows/wsl/install#prerequisites),
+1.a Make sure `wsl2` is [activated in your Windows 10 or Windows 11 computer](https://learn.microsoft.com/id-id/windows/wsl/install#prerequisites),
+1.b Enable wsl2 `networking mode mirrored` by creating a file `.wslconfig` in folder `C:\Users\{Your User Name}` with the following config,
+```
+[wsl2]
+networkingMode=mirrored
+```
 2. [Install Ubuntu 16.04 in wsl2](https://gist.github.com/xynova/87beae35688476efb2ee290d3926f5bb), Ubuntu 16 is mandatory,
 3. [Connect to wsl2 Ubuntu16.04  via VS Code](https://code.visualstudio.com/docs/remote/wsl)
 4. In VS Code terminal connected to wsl2 Ubuntu16.04, run command bellow to install build tool,
