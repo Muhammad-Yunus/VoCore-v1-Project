@@ -48,11 +48,11 @@ export LD_LIBRARY_PATH=$TOOLCHAIN_DIR/usr/lib
 export PATH=$TOOLCHAIN_DIR/bin:$PATH
 export CC=mips-openwrt-linux-uclibc-gcc
 ```
-13. Reload `~/.bashrc`,
+12. Reload `~/.bashrc`,
 ```
 source ~/.bashrc
 ```
-14. Test toolchain by creating `Hello World` program, create a new file name it `main.c` and paste bellow code,
+13. Test toolchain by creating `Hello World` program, create a new file name it `main.c` and paste bellow code,
 ```
 #include <stdio.h>
 
@@ -61,20 +61,20 @@ int main(void)
     return printf("hello world\n");
 }
 ```
-15. Compile the code using `gcc`,
+14. Compile the code using `gcc`,
 ```
 `find ~/openwrt -name mipsel-openwrt-linux-gcc` -g main.c -o hello
 ```
-16. Connect to VoCore WiFi with SSID `VoCore`
-17. Copy compiled binary `hello` to VoCore over SSH using `scp`,
+15. Connect to VoCore WiFi with SSID `VoCore`
+16. Copy compiled binary `hello` to VoCore over SSH using `scp`,
 ```
 scp ./hello root@192.168.61.1
 ```
-18. SSH to VoCore,  
+17. SSH to VoCore,  
 ```
-ssh root@192.168.61.1
+ssh root@192.168.61.1/
 ```
-19. Run the compiled code inside VoCore,
+18. Run the compiled code inside VoCore,
 ```
 ./hello
 ``` 
