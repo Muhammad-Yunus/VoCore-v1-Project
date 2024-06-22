@@ -1,7 +1,7 @@
 # VoCore v1 | Cross-compile Toolchain OpenWRT in WSL2
 
-1.a Make sure `wsl2` is [activated in your Windows 10 or Windows 11 computer](https://learn.microsoft.com/id-id/windows/wsl/install#prerequisites),
-1.b Enable wsl2 `networking mode mirrored` by creating a file `.wslconfig` in folder `C:\Users\{Your User Name}` with the following config,
+1. a. Make sure `wsl2` is [activated in your Windows 10 or Windows 11 computer](https://learn.microsoft.com/id-id/windows/wsl/install#prerequisites),
+1. b. Enable wsl2 `networking mode mirrored` by creating a file `.wslconfig` in folder `C:\Users\{Your User Name}` with the following config,
 ```
 [wsl2]
 networkingMode=mirrored
