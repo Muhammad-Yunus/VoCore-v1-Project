@@ -56,7 +56,26 @@ int main(void)
     return printf("hello world\n");
 }
 ```
-15. compile the code using `gcc`,
+15. Compile the code using `gcc`,
 ```
 `find ~/openwrt -name mipsel-openwrt-linux-gcc` -g main.c -o hello
 ```
+16. Connect to VoCore WiFi with SSID `vocore`
+17. Copy compiled binary `hello` to VoCore over SSH using `scp`,
+```
+scp ./hello root@192.168.61.1
+```
+18. SSH to VoCOre,  
+```
+ssh root@192.168.61.1
+```
+19. Run the compiled code inside VoCore,
+```
+./hello
+``` 
+- it's should printing `Hello World`
+
+
+### Source
+- [https://vonger.cn/?p=1585](https://vonger.cn/?p=1585)
+- [https://medium.com/meseta-robots/set-up-cross-compile-toolchains-in-docker-to-save-time-openwrt-build-system-for-ar9331-1744629164c8](https://medium.com/meseta-robots/set-up-cross-compile-toolchains-in-docker-to-save-time-openwrt-build-system-for-ar9331-1744629164c8)
