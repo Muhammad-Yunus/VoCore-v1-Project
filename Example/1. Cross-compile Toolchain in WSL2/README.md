@@ -3,7 +3,7 @@
 1. Make sure `wsl2` is [activated in your Windows 10 or Windows 11 computer](https://learn.microsoft.com/id-id/windows/wsl/install#prerequisites),
 2. [Install Ubuntu 16.04 in wsl2](https://gist.github.com/xynova/87beae35688476efb2ee290d3926f5bb), Ubuntu 16 is mandatory,
 3. [Connect to wsl2 Ubuntu16.04  via VS Code](https://code.visualstudio.com/docs/remote/wsl)
-4. In VSCode terminal connected to wsl2 Ubuntu16.04, run command bellow to install build tool,
+4. In VS Code terminal connected to wsl2 Ubuntu16.04, run command bellow to install build tool,
 ```
 sudo apt-get install -y build-essential git subversion sharutils vim asciidoc binutils bison flex texinfo gawk help2man intltool libelf-dev zlib1g-dev libncurses5-dev ncurses-term libssl-dev python2.7-dev unzip wget gettext xsltproc && sudo apt-get clean
 ```
