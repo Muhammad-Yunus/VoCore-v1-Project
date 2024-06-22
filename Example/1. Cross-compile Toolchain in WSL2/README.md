@@ -1,4 +1,4 @@
-# 1. VoCore v1 | Cross-compile Toolchain OpenWRT in WSL2
+# VoCore v1 | Cross-compile Toolchain OpenWRT in WSL2
 
 1. Make sure `wsl2` is [activated in your Windows 10 or Windows 11 computer](https://learn.microsoft.com/id-id/windows/wsl/install#prerequisites),
 2. [Install Ubuntu 16.04 in wsl2](https://gist.github.com/xynova/87beae35688476efb2ee290d3926f5bb)
