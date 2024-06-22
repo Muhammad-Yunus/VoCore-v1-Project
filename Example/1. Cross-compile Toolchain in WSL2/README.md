@@ -21,13 +21,13 @@ cd openwrt/
 ```
 wget https://raw.githubusercontent.com/Muhammad-Yunus/VoCore-v1-Project/main/Example/1.%20Cross-compile%20Toolchain%20in%20WSL2/patch/011-fix-sigstksz.patch -P tools/m4/patches/
 ```
-7. Run OpenWRT build system script,
-```
-./scripts/feeds update -a && ./scripts/feeds install -a
-```
-8. Convert `git://` protocol to `https://`,
+7. Convert `git://` protocol to `https://`,
 ```
 git config --global url.https://github.com/.insteadOf git://github.com/
+```
+8. Run OpenWRT build system script,
+```
+./scripts/feeds update -a && ./scripts/feeds install -a
 ```
 9. Setup target systems,
 ```
