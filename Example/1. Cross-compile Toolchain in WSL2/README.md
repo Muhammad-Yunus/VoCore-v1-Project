@@ -47,7 +47,7 @@ export CC=mips-openwrt-linux-uclibc-gcc
 ```
 source ~/.bashrc
 ```
-14. Test toolchain by creating `Hello World` program, create a new file name it `main.c`, and paste 
+14. Test toolchain by creating `Hello World` program, create a new file name it `main.c` and paste bellow code,
 ```
 #include <stdio.h>
 
